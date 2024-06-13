@@ -43,7 +43,8 @@ function rastgeleSayiSec()
   siralanmisSayilar.splice(rastgeleIndex, 1);
 
   
-  if (siralanmisSayilar.length === 0) {
+  if (siralanmisSayilar.length === 0) 
+  {
     document.getElementById('rastgele-sayi-butonu').classList.add('pasif');
   }
 }
