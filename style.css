@@ -1,0 +1,92 @@
+  body 
+  {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 
+  {
+    color: #007bff;
+  }
+  
+  .sayi-kutusu 
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .sayi 
+  {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 5px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .siralama-butonu, .rastgele-sayi-butonu 
+  {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .siralama-butonu 
+  {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .siralama-butonu:hover 
+  {
+    background-color: #0056b3;
+  }
+  
+  .siralama-butonu.pasif 
+  {
+    background-color: #d6e4ff;
+    cursor: default;
+  }
+  
+  .rastgele-sayi-butonu 
+  {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .rastgele-sayi-butonu:hover 
+  {
+    background-color: #c82333;
+  }
+  
+  .rastgele-sayi-butonu.pasif 
+  {
+    background-color: #f8d7da;
+    cursor: default;
+  }
+  
+  .kirmizi-kalin 
+  {
+    color: red;
+    font-weight: bold;
+  }
+  
